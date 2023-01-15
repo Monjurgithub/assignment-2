@@ -294,9 +294,7 @@ text-align: center;
     padding: 30px 250px;
 } */
 @media only screen and (max-width: 576px){
-    *{
-        margin: auto;
-    }
+   
 
     header {
         background: rgba(255, 144, 14, 0.1);
@@ -306,14 +304,20 @@ text-align: center;
 
     .nav-bar{
         flex-direction: column;
-        padding: 10px 40px;
+        align-items: center;
+        padding: 10px 130px;
+        }
+    .nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .logo{
-        font-size: 20px;
+        font-size: 25px;
+            
     }
     .nav > a{
         margin: 10px 0px;
-        padding: 10px;
+        padding: 5px;
     }
     .banner {
         flex-direction: column;
@@ -332,11 +336,15 @@ text-align: center;
     }
     .banner-image img{
         width: 80%;
-        margin: 10px 20px;
+        margin: 10px 30px;
+    }
+    .banner-description .b1{
+        margin-left: 200px;
     }
     .feature{
         flex-direction: column;
-        margin-left: 50px;
+        align-items: center;
+        margin: 130px 60px;
         
     }
     .feature-list{
@@ -356,7 +364,8 @@ text-align: center;
 
     .love{
         flex-direction: column;
-        margin: 0px 80px;
+        margin: 0px 20px;
+        align-items: center;
     }
     .enjoy{
         margin-left: 2px;
@@ -370,9 +379,10 @@ text-align: center;
     }
 
     .some-fact{
-        margin-left: 0px;
+        margin-left: 50px;
         width: 70%;
     }
+
     .box{
         grid-template-columns: repeat(1, 1fr);
         margin: 2px 100px;
@@ -382,16 +392,18 @@ text-align: center;
         width: 50%;
     }
     .section-5{
-        margin-left: 0px;
+        flex-direction: column;
+        margin: 130px 60px;
+        align-items: center;
+        
     }
     .sponsor-details p{
-        margin-left: 5px;
-        width: 100%;
+        width: 200px;
+        margin: 2px 60px;
     }
 
     .brand{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 80px;
     }
     .last-section{
         margin-left: 40px;
